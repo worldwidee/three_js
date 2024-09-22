@@ -4,14 +4,15 @@ version: 0.0.3
 homepage: https://github.com/Knightro63/three_js/tree/main/packages/three_js_math
 
 environment:
-  sdk: '>=3.3.2 <4.0.0'
+  sdk: ">=3.3.2 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
   uuid: ^4.4.0
-  flutter_angle: ^0.0.5
+  flutter_angle:
+    path: packages/flutter_angle/flutter_angle
 
 dev_dependencies:
   flutter_test:
